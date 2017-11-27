@@ -1,0 +1,11 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:KacperKozak/cypress-test.git",
+  "author": "Kacper Kozak <kacper.kozak@siili.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^1.1.2"
+  }
+}
