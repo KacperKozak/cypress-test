@@ -5,6 +5,10 @@
   "repository": "git@github.com:KacperKozak/cypress-test.git",
   "author": "Kacper Kozak <kacper.kozak@siili.com>",
   "license": "MIT",
+  "scripts": {
+    "open": "cypress open",
+    "run": "cypress run"
+  },
   "dependencies": {
     "cypress": "^1.1.2"
   }
