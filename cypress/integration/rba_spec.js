@@ -55,13 +55,13 @@ describe('RBA', () => {
         cy
             .get('@firstRoom')
             .find('.room-action__button')
-            .click();
+            .click({ force: true });
 
         cy
             .get('@firstRoom')
             .find('.room-action__new-event')
             .contains('30')
-            .click({ force: true });
+            .click({ timeout: 10000, force: true });
         cy
             .get('@firstRoom')
             .find('.agenda-event')
